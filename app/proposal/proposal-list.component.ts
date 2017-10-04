@@ -13,4 +13,9 @@ proposalTwo: Proposal = new Proposal( 14,'XYZ Company','http://google.com', 'Rub
 
 proposalThree: Proposal = new Proposal( 15,'wxe Company','http://google.com', 'Ruby on Rails', 150,120, 14,'xyz@gmail.com')
 
+proposals: Proposal[] = [
+ this.proposalOne,
+ this.proposalTwo,
+ this.proposalThree
+]
 }

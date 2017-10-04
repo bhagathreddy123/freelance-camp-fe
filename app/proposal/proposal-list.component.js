@@ -13,6 +13,11 @@ var ProposalListComponent = /** @class */ (function () {
         this.proposalOne = new proposal_1.Proposal(13, 'ABC Company', 'http://google.com', 'Ruby on Rails', 150, 120, 14, 'xyz@gmail.com');
         this.proposalTwo = new proposal_1.Proposal(14, 'XYZ Company', 'http://google.com', 'Ruby on Rails', 150, 120, 14, 'xyz@gmail.com');
         this.proposalThree = new proposal_1.Proposal(15, 'wxe Company', 'http://google.com', 'Ruby on Rails', 150, 120, 14, 'xyz@gmail.com');
+        this.proposals = [
+            this.proposalOne,
+            this.proposalTwo,
+            this.proposalThree
+        ];
     }
     ProposalListComponent = __decorate([
         core_1.Component({
