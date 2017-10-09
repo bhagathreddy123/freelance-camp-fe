@@ -1,6 +1,6 @@
 # freelance-camp-fe
 
-setting bootstrap 
+setting bootstrap
 
 https://v4-alpha.getbootstrap.com/getting-started/introduction/
 
@@ -8,7 +8,7 @@ https://ng-bootstrap.github.io/#/getting-started
 
 npm install --save @ng-bootstrap/ng-bootstrap
 
-Once installed you need to import our main module. 
+Once installed you need to import our main module.
 include below code  in app.module.ts
 
 import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
@@ -23,12 +23,10 @@ import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 
 
 
-
-
-
-
-
-
-
-
 https://fonts.google.com/
+
+
+proposal-list.component.html
+
+inside a tag
+(click)="goToShow(proposal)"  
