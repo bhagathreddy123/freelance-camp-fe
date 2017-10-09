@@ -108,6 +108,10 @@
 					</div>
 
 					<button type="submit" class='btn btn-outline-primary btn-lg' [disabled]="!proposalForm.form.valid" [hidden]="submitted"> General Proposal</button>
+					<div [hidden]="!submitted" class="alert alert-success" role="alert">
+					Your Proposal has been generated 
+					<a class="alert-link" routerLink="/proposals"> View all proposals </a>
+					</div>
 
 				</form>
 			</div>
