@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { Observable } from 'rxjs/Rx'
+import { Observable } from 'rxjs/Rx';
 import { Proposal } from './proposal';
 import { ProposalService } from './proposal.service';
 
@@ -31,5 +31,6 @@ export class ProposalListComponent implements OnInit {
 			error => this.errorMessage = <any>error
 			);
 	}
+
 
 }
